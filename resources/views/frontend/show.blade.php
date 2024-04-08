@@ -1,0 +1,27 @@
+@extends('layouts.app')
+@section('content')
+    <table class="table table-bordered mt-3">
+        <tbody>
+                <tr>
+                    <td>Nume</td>
+                    <td>{{$vehicle->name}}</td>
+                </tr>
+                <tr>
+                    <td>Nume</td>
+                    <td>{{$vehicle->type}}</td>
+                </tr>
+                <tr>
+                    <td>Nume</td>
+                    <td>{{$vehicle->capacity}}</td>
+                </tr>
+                <tr>
+                    <td>Nume</td>
+                    <td>{{$vehicle->year}}</td>
+                </tr>
+                <tr>
+                    <td>Nume</td>
+                    <td>{{$vehicle->status}}</td>
+                </tr>
+        </tbody>
+    </table>
+@stop

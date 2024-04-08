@@ -6,15 +6,13 @@ use Illuminate\Http\Request;
 use App\Models\Vehicle;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
-use App\Http\Requests\StoreThingRequest;
-use App\Http\Requests\UpdateThingRequest;
 
 class VehicleController extends Controller
 {
     public function index(): View
     {
         $vehicles = Vehicle::all();
-        return view('admin.vehicles.index', ['vehicles' => $vehicles]);
+        return view('frontend.index', ['vehicles' => $vehicles]);
     }
 
     /**
@@ -22,7 +20,8 @@ class VehicleController extends Controller
      */
     public function create(): View
     {
-        return view('admin.vehicles.create');
+        $vehicles = Vehicle::all();
+        return view('frontend.create', ['vehicles' => $vehicles]);
     }
 
     /**
