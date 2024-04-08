@@ -15,17 +15,25 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <style>
+        body {
+      background-color: #0d6efd; 
+    }
+    </style>
 </head>
 <body>
+<div class="bg-primary p-3 m-3 text-white">    
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand shadow-lg" href="{{ url('/') }}">
                     {{ config('app.name', 'Examen') }}
                 </a>
             </div>
         </nav>
 
+
+    </div>
         <main class="py-4">
             @yield('content')
         </main>

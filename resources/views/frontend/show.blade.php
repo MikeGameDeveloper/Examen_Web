@@ -7,19 +7,19 @@
                     <td>{{$vehicle->name}}</td>
                 </tr>
                 <tr>
-                    <td>Nume</td>
+                    <td>Type</td>
                     <td>{{$vehicle->type}}</td>
                 </tr>
                 <tr>
-                    <td>Nume</td>
+                    <td>Capacity</td>
                     <td>{{$vehicle->capacity}}</td>
                 </tr>
                 <tr>
-                    <td>Nume</td>
+                    <td>Year</td>
                     <td>{{$vehicle->year}}</td>
                 </tr>
                 <tr>
-                    <td>Nume</td>
+                    <td>Status</td>
                     <td>{{$vehicle->status}}</td>
                 </tr>
         </tbody>

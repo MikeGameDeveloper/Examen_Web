@@ -19,29 +19,29 @@
                         <div class="mb-3">
                             <label for="name" class="form-label"></label>
                             <input type="text" id="name" name="name"
-                                class="form-control @error('name') is-invalid @enderror" placeholder="Nume">
+                                class="form-control border border-black @error('name') is-invalid @enderror" placeholder="Nume">
                         </div>
                         <div class="mb-3">
                             <label for="name" class="form-label"></label>
                             <input type="text" id="type" name="type" 
-                                class="form-control @error('name') is-invalid @enderror" placeholder="Type">
+                                class="form-control border border-black @error('name') is-invalid @enderror" placeholder="Type">
                         </div>
                         <div class="mb-3">
                             <label for="capacity" class="form-label"></label>
                             <input type="number" id="capacity" name="capacity"
-                                class="form-control @error('name') is-invalid @enderror" placeholder="Capacity">
+                                class="form-control border border-black @error('name') is-invalid @enderror" placeholder="Capacity">
                         </div>
                         <div class="mb-3">
                             <label for="year" class="form-label"></label>
                             <input type="number" id="year" name="year"
-                                class="form-control @error('name') is-invalid @enderror" placeholder="Year">
+                                class="form-control border border-black @error('name') is-invalid @enderror" placeholder="Year">
                         </div>
                         <div class="mb-3">
                             <label for="status" class="form-label"></label>
                             <input type="text" id="status" name="status" 
-                                class="form-control @error('name') is-invalid @enderror" placeholder="Status">
+                                class="form-control border border-black @error('name') is-invalid @enderror" placeholder="Status">
                         </div>
-                        <button type="submit" class="btn btn-dark">Save</button>
+                        <button type="submit" class="btn btn-dark mb-3">Save</button>
                     </form>
                     </div>
                    
